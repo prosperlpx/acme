@@ -14,27 +14,27 @@
 
     <ul class="flex justify-between items-center bg-white py-12 px-10 rounded-2xl mt-8 gap-4">
       <li>
-        <a href="https://facebook.com" target="_blank"><img src={facebook} alt="" class="w-10 sm:w-14"></a>
+        <a href="https://facebook.com/lapXpec" target="_blank"><img src={facebook} alt="" class="w-10 sm:w-14"></a>
       </li>
 
       <li>
-        <a href="https://facebook.com" target="_blank"><img src={instagram} alt="" class="w-10 sm:w-14"></a>
+        <a href="https://www.instagram.com/lapXpec" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="" class="w-10 sm:w-14"></a>
       </li>
 
       <li>
-        <a href="https://facebook.com" target="_blank"><img src={email} alt="" class="w-10 sm:w-14"></a>
+        <a href="mailto:inquiries@techprincemr@gmail.com" target="_blank"><img src={email} alt="" class="w-10 sm:w-14"></a>
       </li>
 
       <li>
-        <a href="https://facebook.com" target="_blank"><img src={discord} alt="" class="w-10 sm:w-14"></a>
+        <a href="https://discord.gg/QQm8PunR" target="_blank"><img src={discord} alt="" class="w-10 sm:w-14"></a>
       </li>
 
       <li>
-        <a href="https://facebook.com" target="_blank"><img src={x} alt="" class="w-10 sm:w-14"></a>
+        <a href="https://x.com/prosperlapxpec" target="_blank"><img src={x} alt="" class="w-10 sm:w-14"></a>
       </li>
 
       <li>
-        <a href="https://facebook.com" target="_blank"><img src={telegram} alt="" class="w-10 sm:w-14"></a>
+        <a href="https://t.me/prosperlpX" target="_blank" rel="noopener noreferrer"><img src={telegram} alt="" class="w-10 sm:w-14"></a>
       </li>
     </ul>
   </section>
