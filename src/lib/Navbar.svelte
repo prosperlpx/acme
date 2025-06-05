@@ -1,9 +1,14 @@
 <script>
   import {Link} from 'svelte-routing';
+  import {fade} from 'svelte/transition'
   let isMenuCLose = false;
 
   function toggleMenu(){
     isMenuCLose = !isMenuCLose
+  }
+
+  function closeMenu(){
+    isMenuCLose = false;
   }
 </script>
 
@@ -35,12 +40,13 @@
   </section>
 
   {#if isMenuCLose}
-    <section class = "justify-center absolute md:hidden w-full flex-col bg-black text-5xl font-medium">
-      <nav class="flex min-h-screen flex-col items-center py-8">
-        <a href="#heros" class="w-full py-6 text-center hover:opacity-90">Home</a>
-        <a href="#rockets" class="w-full py-6 text-center hover:opacity-90">Our Rockets</a>
-        <a href="#socials" class="w-full py-6 text-center hover:opacity-90">Socials</a>
-        <a href="#contact" class="w-full py-6 text-center hover:opacity-90">Contact Us</a>
+  
+    <section class = "justify-center absolute md:hidden w-full flex-col bg-black text-5xl font-medium"  transition:fade>
+      <nav class="flex min-h-screen flex-col items-center py-8 mx-auto">
+        <a href="#heros" class="w-full py-6 text-center hover:opacity-90" on:click={closeMenu}>Home</a>
+        <a href="#rockets" class="w-full py-6 text-center hover:opacity-90" on:click={closeMenu}>Our Rockets</a>
+        <a href="#socials" class="w-full py-6 text-center hover:opacity-90" on:click={closeMenu}>Socials</a>
+        <a href="#contact" class="w-full py-6 text-center hover:opacity-90" on:click={closeMenu}>Contact Us</a>
       </nav>
     </section>
   {/if}
