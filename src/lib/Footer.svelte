@@ -1,8 +1,7 @@
 
-
 <footer class="bg-teal-600 py-4">
   <!-- for larger screens -->
-  <section class="hidden max-w-4xl mx-auto p-6 sm:flex justify-between items-center">
+  <section class="hidden mx-auto p-4 sm:px-8 sm:py-4 sm:flex justify-between items-center">
     <a href="#heros" class="hover:opacity-90 font-medium text-lg">Back to Top ^</a>
     <nav class="flex flex-col items-center">
       <a href="#rockets" class="hover:opacity-90 font-medium text-lg">Our Rockets</a>
